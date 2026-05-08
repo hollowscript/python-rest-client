@@ -4,30 +4,6 @@ A command-line Python project that demonstrates how to use the `requests` librar
 
 Built with the [JSONPlaceholder](https://jsonplaceholder.typicode.com) free fake API — no account or API key needed.
 
----
-
-## Preview
-
-
-╔══════════════════════════════════════════════╗
-║        REST CLIENT  —  JSONPlaceholder       ║
-║   GET · POST · PUT · DELETE  in Python       ║
-╚══════════════════════════════════════════════╝
-
-  ┌─────────────────────────────────────┐
-  │             MAIN MENU               │
-  ├─────────────────────────────────────┤
-  │  1  → Get all posts                 │
-  │  2  → Get a single post             │
-  │  3  → Get posts by user             │
-  │  4  → Get comments on a post        │
-  │  5  → Create a new post             │
-  │  6  → Update a post                 │
-  │  7  → Delete a post                 │
-  │  0  → Exit                          │
-  └─────────────────────────────────────┘
-
-
 
 ## Features
 
@@ -38,16 +14,6 @@ Built with the [JSONPlaceholder](https://jsonplaceholder.typicode.com) free fake
 - Interactive menu-driven CLI — no arguments needed, just run and pick
 - Clean error handling for connection errors, timeouts, and HTTP errors
 - Uses `requests.Session()` for efficient, reusable connections
-
----
-
-## Technologies Used
-
-| Tool | Purpose |
-|---|---|
-| Python 3.x | Core language |
-| `requests` | HTTP requests library |
-| JSONPlaceholder | Free fake REST API for testing |
 
 ---
 
