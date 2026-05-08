@@ -1,16 +1,3 @@
-"""
-client.py  —  PostClient class.
-
-This module handles all communication with the JSONPlaceholder API.
-It separates the API logic from the display logic and the menu logic.
-
-Each method:
-  1. Builds the correct URL
-  2. Makes the HTTP request
-  3. Handles errors
-  4. Returns the result (or None on failure)
-"""
-
 import requests
 from display import print_post, print_posts_table, print_comment, print_success, print_error
 
