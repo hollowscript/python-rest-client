@@ -1,13 +1,3 @@
-"""
-display.py  —  All print and formatting functions.
-
-Keeping display logic here (separate from client.py) means:
-  - client.py focuses only on HTTP logic
-  - If you ever want to change how things look, you edit ONE file
-  - This pattern is called "Separation of Concerns"
-"""
-
-
 def print_banner():
     print("""
 ╔══════════════════════════════════════════════╗
