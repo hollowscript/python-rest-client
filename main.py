@@ -1,8 +1,3 @@
-"""
-main.py  —  Entry point for the REST Client project.
-Run this file to start the interactive menu:  python main.py
-"""
-
 from client import PostClient
 from display import print_banner, print_menu, divider
 
@@ -80,7 +75,7 @@ def main():
                 print("  ✗  Please enter a valid number.")
 
         elif choice == "0":
-            print("\n  Goodbye! 👋\n")
+            print("\n  Goodbye! \n")
             break
 
         else:
