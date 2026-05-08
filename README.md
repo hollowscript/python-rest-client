@@ -1,4 +1,4 @@
-# 🌐 REST Client — JSONPlaceholder API
+# REST Client — JSONPlaceholder API
 
 A command-line Python project that demonstrates how to use the `requests` library to interact with a REST API using all four main HTTP methods: **GET, POST, PUT, and DELETE**.
 
@@ -6,9 +6,9 @@ Built with the [JSONPlaceholder](https://jsonplaceholder.typicode.com) free fake
 
 ---
 
-## 📸 Preview
+## Preview
 
-```
+
 ╔══════════════════════════════════════════════╗
 ║        REST CLIENT  —  JSONPlaceholder       ║
 ║   GET · POST · PUT · DELETE  in Python       ║
@@ -26,11 +26,10 @@ Built with the [JSONPlaceholder](https://jsonplaceholder.typicode.com) free fake
   │  7  → Delete a post                 │
   │  0  → Exit                          │
   └─────────────────────────────────────┘
-```
 
----
 
-## 🚀 Features
+
+## Features
 
 - **GET** — Fetch all posts, a single post, posts by user, and comments
 - **POST** — Create a new post with custom title and body
@@ -42,7 +41,7 @@ Built with the [JSONPlaceholder](https://jsonplaceholder.typicode.com) free fake
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 | Tool | Purpose |
 |---|---|
@@ -52,7 +51,7 @@ Built with the [JSONPlaceholder](https://jsonplaceholder.typicode.com) free fake
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 rest_client/
@@ -64,19 +63,7 @@ rest_client/
 └── README.md         # This file
 ```
 
-### Why three files?
-
-This project uses a pattern called **Separation of Concerns**:
-
-- `client.py` only handles HTTP logic — it doesn't know how to print anything
-- `display.py` only handles how things look — it doesn't know about the API
-- `main.py` connects them — it handles user input and calls the right functions
-
-This makes the code easier to read, modify, and expand.
-
----
-
-## ⚙️ Setup & Run
+## Setup & Run
 
 ### 1. Clone the repository
 
@@ -105,21 +92,10 @@ pip install -r requirements.txt
 python main.py
 ```
 
----
-
-## 📖 What I Learned
-
-- How to send HTTP requests using the `requests` library in Python
-- The difference between GET, POST, PUT, and DELETE
-- How to parse JSON responses into Python dicts and lists
-- How to handle errors with `try/except` and `raise_for_status()`
-- How to use query parameters (`?userId=2`) with `params=`
-- How to use `requests.Session()` for connection reuse
-- How to organize a Python project across multiple files
 
 ---
 
-## 🔗 API Reference
+## API Reference
 
 This project uses the [JSONPlaceholder API](https://jsonplaceholder.typicode.com).
 
@@ -133,10 +109,4 @@ This project uses the [JSONPlaceholder API](https://jsonplaceholder.typicode.com
 | `PUT /posts/{id}` | Update a post |
 | `DELETE /posts/{id}` | Delete a post |
 
-> **Note:** JSONPlaceholder is a fake API. Data is not actually saved or deleted on the server — it only simulates those actions and returns realistic responses. This makes it perfect for learning.
-
----
-
-## 📝 License
-
-This project is open source and available under the [MIT License](LICENSE).
+**Note:** JSONPlaceholder is a fake API. Data is not actually saved or deleted on the server — it only simulates those actions and returns realistic responses.
