@@ -1,10 +1,3 @@
-# REST Client — JSONPlaceholder API
-
-A command-line Python project that demonstrates how to use the `requests` library to interact with a REST API using all four main HTTP methods: **GET, POST, PUT, and DELETE**.
-
-Built with the [JSONPlaceholder](https://jsonplaceholder.typicode.com) free fake API — no account or API key needed.
-
-
 ## Features
 
 - **GET** — Fetch all posts, a single post, posts by user, and comments
