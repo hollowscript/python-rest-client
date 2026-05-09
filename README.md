@@ -22,38 +22,6 @@ rest_client/
 └── README.md         # This file
 ```
 
-## Setup & Run
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/your-username/rest-client.git
-cd rest-client
-```
-
-### 2. (Optional) Create a virtual environment
-
-```bash
-python -m venv venv
-source venv/bin/activate        # macOS / Linux
-venv\Scripts\activate           # Windows
-```
-
-### 3. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Run the project
-
-```bash
-python main.py
-```
-
-
----
-
 ## API Reference
 
 This project uses the [JSONPlaceholder API](https://jsonplaceholder.typicode.com).
