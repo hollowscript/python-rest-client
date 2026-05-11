@@ -26,14 +26,4 @@ rest_client/
 
 This project uses the [JSONPlaceholder API](https://jsonplaceholder.typicode.com).
 
-| Endpoint | Description |
-|---|---|
-| `GET /posts` | Fetch all posts |
-| `GET /posts/{id}` | Fetch a single post |
-| `GET /posts?userId={id}` | Filter posts by user |
-| `GET /posts/{id}/comments` | Get comments for a post |
-| `POST /posts` | Create a new post |
-| `PUT /posts/{id}` | Update a post |
-| `DELETE /posts/{id}` | Delete a post |
-
 **Note:** JSONPlaceholder is a fake API. Data is not actually saved or deleted on the server — it only simulates those actions and returns realistic responses.
